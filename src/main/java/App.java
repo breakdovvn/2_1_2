@@ -23,5 +23,7 @@ public class App {
                 (helloWorldBean1 == helloWorldBean2));
         System.out.println("Сравнение бинов Cat: " +
                 (catBean1 == catBean2));
+
+        applicationContext.close();
     }
 }
